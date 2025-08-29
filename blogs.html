@@ -4,132 +4,86 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>blogs</title>
 
-    <!-- font awesome cdn link  -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/all.min.css">
+    <!-- SEO Title -->
+    <title>Blogs | Naved Ahmad Siddiqui - Web Developer Insights</title>
 
-    <!-- custom css file link  -->
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="Read blogs by Naved Ahmad Siddiqui on web development, design, technology trends, and personal growth.">
+    <meta name="keywords" content="Naved Ahmad Siddiqui, Blogs, Web Development, Design, Tech, Articles">
+    <meta name="author" content="Naved Ahmad Siddiqui">
+
+    <!-- Font Awesome (Fixed) -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+    <!-- Custom CSS -->
     <link rel="stylesheet" href="style.css">
-
 </head>
 <body>
-    
-<!-- navbar section starts  -->
 
-<nav class="navbar">
-    <a href="home.html"> <i class="fas fa-home"></i> <span>home</span> </a>
-    <a href="about.html"> <i class="fas fa-user"></i> <span>about</span> </a>
-    <a href="portfolio.html"> <i class="fas fa-briefcase"></i> <span>portfolio</span> </a>
-    <a href="blogs.html"> <i class="fas fa-blog"></i> <span>blogs</span> </a>
-    <a href="contact.html"> <i class="fas fa-address-book"></i> <span>contact</span> </a>
-</nav>
+    <!-- Navbar Section -->
+    <nav class="navbar" role="navigation" aria-label="Main navigation">
+        <a href="home.html"> <i class="fas fa-home"></i> <span>Home</span> </a>
+        <a href="about.html"> <i class="fas fa-user"></i> <span>About</span> </a>
+        <a href="portfolio.html"> <i class="fas fa-briefcase"></i> <span>Portfolio</span> </a>
+        <a href="blogs.html"> <i class="fas fa-blog"></i> <span>Blogs</span> </a>
+        <a href="contact.html"> <i class="fas fa-envelope"></i> <span>Contact</span> </a>
+    </nav>
 
-<!-- navbar section ends -->
+    <!-- Blogs Section -->
+    <section class="blogs" id="blogs">
+        <h1>Latest <span>Blogs</span></h1>
+        <p>Here are some of my latest blog posts on technology, web development, and design.</p>
 
-<!-- blogs section starts  -->
+        <div class="blogs-container">
 
-<section class="blogs">
-
-    <h1 class="heading"> <span>my</span> blogs </h1>
-
-    <div class="box-container">
-
-        <div class="box">
-            <div class="image">
-                <img src="blog1.jpg" alt="">
-            </div>
-            <div class="content">
-                <div class="icons">
-                    <a href="#"> <i class="fas fa-calendar"></i> 21st may, 2021 </a>
-                    <a href="#"> <i class="fas fa-user"></i> by admin </a>
+            <!-- Blog 1 -->
+            <div class="blog-card">
+                <img src="blog1.jpg" alt="Blog 1 - Future of Web Development">
+                <div class="blog-info">
+                    <h3>The Future of Web Development</h3>
+                    <p>Exploring upcoming trends and technologies that will shape the future of web development.</p>
+                    <a href="#" class="btn" target="_blank">Read More</a>
                 </div>
-                <h3>blog title goes here.</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi, illum.</p>
-                <a href="#" class="btn"> read more <i class="fas fa-link"></i> </a>
             </div>
-        </div>
 
-        <div class="box">
-            <div class="image">
-                <img src="blog2.jpg" alt="">
-            </div>
-            <div class="content">
-                <div class="icons">
-                    <a href="#"> <i class="fas fa-calendar"></i> 21st may, 2021 </a>
-                    <a href="#"> <i class="fas fa-user"></i> by admin </a>
+            <!-- Blog 2 -->
+            <div class="blog-card">
+                <img src="blog2.jpg" alt="Blog 2 - Responsive Design Tips">
+                <div class="blog-info">
+                    <h3>10 Tips for Responsive Web Design</h3>
+                    <p>Practical tips for creating websites that look great on every device.</p>
+                    <a href="#" class="btn" target="_blank">Read More</a>
                 </div>
-                <h3>blog title goes here.</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi, illum.</p>
-                <a href="#" class="btn"> read more <i class="fas fa-link"></i> </a>
             </div>
-        </div>
 
-        <div class="box">
-            <div class="image">
-                <img src="images/blog3.jpg" alt="">
-            </div>
-            <div class="content">
-                <div class="icons">
-                    <a href="#"> <i class="fas fa-calendar"></i> 21st may, 2021 </a>
-                    <a href="#"> <i class="fas fa-user"></i> by admin </a>
+            <!-- Blog 3 -->
+            <div class="blog-card">
+                <img src="blog3.jpg" alt="Blog 3 - UI/UX Principles">
+                <div class="blog-info">
+                    <h3>Essential UI/UX Principles</h3>
+                    <p>Learn the key principles that make websites user-friendly and engaging.</p>
+                    <a href="#" class="btn" target="_blank">Read More</a>
                 </div>
-                <h3>blog title goes here.</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi, illum.</p>
-                <a href="#" class="btn"> read more <i class="fas fa-link"></i> </a>
             </div>
-        </div>
 
-        <div class="box">
-            <div class="image">
-                <img src="images/blog4.jpg" alt="">
-            </div>
-            <div class="content">
-                <div class="icons">
-                    <a href="#"> <i class="fas fa-calendar"></i> 21st may, 2021 </a>
-                    <a href="#"> <i class="fas fa-user"></i> by admin </a>
+            <!-- Blog 4 -->
+            <div class="blog-card">
+                <img src="blog4.jpg" alt="Blog 4 - SEO Strategies">
+                <div class="blog-info">
+                    <h3>SEO Strategies for 2025</h3>
+                    <p>Latest SEO techniques to help your website rank higher on search engines.</p>
+                    <a href="#" class="btn" target="_blank">Read More</a>
                 </div>
-                <h3>blog title goes here.</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi, illum.</p>
-                <a href="#" class="btn"> read more <i class="fas fa-link"></i> </a>
             </div>
+
         </div>
+    </section>
 
-        <div class="box">
-            <div class="image">
-                <img src="images/blog5.jpg" alt="">
-            </div>
-            <div class="content">
-                <div class="icons">
-                    <a href="#"> <i class="fas fa-calendar"></i> 21st may, 2021 </a>
-                    <a href="#"> <i class="fas fa-user"></i> by admin </a>
-                </div>
-                <h3>blog title goes here.</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi, illum.</p>
-                <a href="#" class="btn"> read more <i class="fas fa-link"></i> </a>
-            </div>
-        </div>
-
-        <div class="box">
-            <div class="image">
-                <img src="images/blog6.jpg" alt="">
-            </div>
-            <div class="content">
-                <div class="icons">
-                    <a href="#"> <i class="fas fa-calendar"></i> 21st may, 2021 </a>
-                    <a href="#"> <i class="fas fa-user"></i> by admin </a>
-                </div>
-                <h3>blog title goes here.</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi, illum.</p>
-                <a href="#" class="btn"> read more <i class="fas fa-link"></i> </a>
-            </div>
-        </div>
-
-    </div>
-
-</section>
-
-<!-- blogs section ends -->
+    <!-- Footer -->
+    <footer>
+        <p>© 2025 Naved Ahmad Siddiqui | All Rights Reserved</p>
+    </footer>
 
 </body>
 </html>
